@@ -14,6 +14,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto auto auto auto;
+  background-color: $bg-color;
 }
 .box-shadow {
   -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
@@ -23,4 +24,17 @@ body {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+.welcome-message-text {
+  font-size: 5vw;
+}
+.form-container {
+  width: 450px;
+  margin: auto;
+  padding: 2%;
+  background-color: $main-color;
+}
+.btn-event-submit {
+  width: 100%;
+  margin-top: 15px;
 }
