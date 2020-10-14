@@ -1,0 +1,26 @@
+$bg-color: #b2ddf7;
+$main-color: #4cb5ae;
+
+* {
+  box-sizing: border-box;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+html,
+body {
+  height: auto;
+  background-color: $bg-color;
+}
+.page-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+.box-shadow {
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
