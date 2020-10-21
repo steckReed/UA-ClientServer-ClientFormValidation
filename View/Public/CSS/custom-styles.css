@@ -23,6 +23,7 @@ body {
 .box-shadow {
   -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  border: 4px;
 }
 
 .center {
@@ -49,5 +50,16 @@ form > textarea {
 .btn-event-submit {
   width: 100%;
   margin-top: 15px;
+}
+
+#localStorageData {
+  margin-top: 25px;
+  background-color: #4cb5ae;
+  border: 1px solid black;
+}
+
+#localStorageData > h3 {
+  color: whitesmoke;
+  text-align: center;
 }
 /*# sourceMappingURL=custom-styles.css.map */

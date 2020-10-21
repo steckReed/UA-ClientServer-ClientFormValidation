@@ -20,6 +20,7 @@ body {
   -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  border: 4px;
 }
 .center {
   margin-left: auto;
@@ -41,4 +42,14 @@ form > textarea {
 .btn-event-submit {
   width: 100%;
   margin-top: 15px;
+}
+#localStorageData {
+  margin-top: 25px;
+  background-color: $main-color;
+  border: 1px solid black;
+}
+
+#localStorageData > h3 {
+  color: whitesmoke;
+  text-align: center;
 }
