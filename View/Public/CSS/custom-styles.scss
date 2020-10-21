@@ -34,6 +34,10 @@ body {
   padding: 2%;
   background-color: $main-color;
 }
+.form-row,
+form > textarea {
+  margin-bottom: 15px;
+}
 .btn-event-submit {
   width: 100%;
   margin-top: 15px;

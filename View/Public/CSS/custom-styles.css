@@ -41,6 +41,11 @@ body {
   background-color: #4cb5ae;
 }
 
+.form-row,
+form > textarea {
+  margin-bottom: 15px;
+}
+
 .btn-event-submit {
   width: 100%;
   margin-top: 15px;
